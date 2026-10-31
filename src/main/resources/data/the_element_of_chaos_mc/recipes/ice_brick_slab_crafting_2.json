@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "the_element_of_chaos_mc:icebricks"
+  },
+  "result": "the_element_of_chaos_mc:icebricksslabs"
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "the_element_of_chaos_mc:blocks/icebricksslabs",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "the_element_of_chaos_mc:icebricksslabs",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "the_element_of_chaos_mc:icebricksslabs",
+                  "properties": {
+                    "type": "double"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

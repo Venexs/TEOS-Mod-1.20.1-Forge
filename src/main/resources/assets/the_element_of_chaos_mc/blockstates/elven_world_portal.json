@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "the_element_of_chaos_mc:block/elven_world_portal_ew"
+    },
+    "axis=x": {
+      "model": "the_element_of_chaos_mc:block/elven_world_portal_ns"
+    }
+  }
+}

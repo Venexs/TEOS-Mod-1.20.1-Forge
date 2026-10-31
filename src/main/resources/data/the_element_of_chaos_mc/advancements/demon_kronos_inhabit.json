@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "the_element_of_chaos_mc:broken_red_gem"
+    },
+    "title": {
+      "translate": "advancements.demon_kronos_inhabit.title"
+    },
+    "description": {
+      "translate": "advancements.demon_kronos_inhabit.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "demon_kronos_inhabit_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:adventure/root"
+}

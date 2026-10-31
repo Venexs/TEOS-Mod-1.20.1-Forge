@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "the_element_of_chaos_mc:shapened_obsidian"
+    },
+    {
+      "item": "the_element_of_chaos_mc:shapened_obsidian"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "result": {
+    "item": "the_element_of_chaos_mc:obsidian_sword",
+    "count": 1
+  }
+}

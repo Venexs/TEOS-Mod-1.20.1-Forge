@@ -1,0 +1,129 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-10-14 16:25:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2026-10-14 16:25:37 +0530"
+    },
+    "done": false
+  },
+  "the_element_of_chaos_mc:magic_selected": {
+    "criteria": {
+      "magic_selected_0": "2026-10-14 16:25:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2026-10-14 16:25:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:slime": "2026-10-14 16:25:57 +0530"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:slime": "2026-10-14 16:25:57 +0530"
+    },
+    "done": true
+  },
+  "the_element_of_chaos_mc:recipes/polished_ice_stairs_crafting_2": {
+    "criteria": {
+      "has_ingredient_0": "2026-10-14 16:29:08 +0530"
+    },
+    "done": true
+  },
+  "the_element_of_chaos_mc:recipes/polished_ice_slab_crafting_2": {
+    "criteria": {
+      "has_ingredient_0": "2026-10-14 16:29:08 +0530"
+    },
+    "done": true
+  },
+  "the_element_of_chaos_mc:recipes/ice_brick_stair_crafting_2": {
+    "criteria": {
+      "has_ingredient_0": "2026-10-14 16:32:24 +0530"
+    },
+    "done": true
+  },
+  "the_element_of_chaos_mc:recipes/ice_brick_slab_crafting_2": {
+    "criteria": {
+      "has_ingredient_0": "2026-10-14 16:32:24 +0530"
+    },
+    "done": true
+  },
+  "the_element_of_chaos_mc:recipes/ice_brick_slab_crafting": {
+    "criteria": {
+      "has_ingredient_0": "2026-10-14 16:38:43 +0530"
+    },
+    "done": true
+  },
+  "the_element_of_chaos_mc:recipes/polished_ice_crafting": {
+    "criteria": {
+      "has_ingredient_0": "2026-10-14 16:38:43 +0530"
+    },
+    "done": true
+  },
+  "the_element_of_chaos_mc:recipes/polished_ice_slab_crafting": {
+    "criteria": {
+      "has_ingredient_0": "2026-10-14 16:38:43 +0530"
+    },
+    "done": true
+  },
+  "the_element_of_chaos_mc:recipes/polished_ice_stairs_crafting": {
+    "criteria": {
+      "has_ingredient_0": "2026-10-14 16:38:43 +0530"
+    },
+    "done": true
+  },
+  "the_element_of_chaos_mc:recipes/ice_brick_stair_crafting": {
+    "criteria": {
+      "has_ingredient_0": "2026-10-14 16:38:43 +0530"
+    },
+    "done": true
+  },
+  "the_element_of_chaos_mc:recipes/icebrickcrafting": {
+    "criteria": {
+      "has_ingredient_0": "2026-10-14 16:38:43 +0530"
+    },
+    "done": true
+  },
+  "the_element_of_chaos_mc:elven_dim_enter_achivement": {
+    "criteria": {
+      "elven_dim_enter_achivement_0": "2026-10-14 17:59:11 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2026-10-14 18:02:39 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-10-14 18:02:39 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2026-10-14 18:02:39 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2026-10-14 18:02:39 +0530"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

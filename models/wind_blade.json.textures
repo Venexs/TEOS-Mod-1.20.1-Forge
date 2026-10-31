@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "windblade",
+        "1": "windblade_mid",
+        "2": "windblade_1"
+      }
+    }
+  }
+}

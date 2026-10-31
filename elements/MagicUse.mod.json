@@ -1,0 +1,207 @@
+{
+  "_fv": 89,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "inventory.png",
+          "spritesCount": 1,
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 393,
+          "y": 171,
+          "locked": false
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "inventory.png",
+          "spritesCount": 1,
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 393,
+          "y": 188,
+          "locked": false
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "inventory.png",
+          "spritesCount": 1,
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 393,
+          "y": 205,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_x",
+          "text": {
+            "fixedValue": "X"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 385,
+          "y": 171,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "textspace.png",
+          "use1Xscale": false,
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 384,
+          "y": 171,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "textspace.png",
+          "use1Xscale": false,
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 384,
+          "y": 188,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_z",
+          "text": {
+            "fixedValue": "Z"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 385,
+          "y": 188,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "textspace.png",
+          "use1Xscale": false,
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 384,
+          "y": 205,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_c",
+          "text": {
+            "fixedValue": "C"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 385,
+          "y": 205,
+          "locked": false
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "fire_laser.png",
+          "spritesCount": 1,
+          "displayCondition": "IsElementFire",
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 395,
+          "y": 207,
+          "locked": false
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "fire_rock.png",
+          "spritesCount": 1,
+          "displayCondition": "IsElementFire",
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 395,
+          "y": 173,
+          "locked": false
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "fire_wall.png",
+          "spritesCount": 1,
+          "displayCondition": "IsElementFire",
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 395,
+          "y": 190,
+          "locked": false
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "wind_blade.png",
+          "spritesCount": 1,
+          "displayCondition": "IsElementAir",
+          "spriteIndex": {
+            "fixedValue": 0.0
+          },
+          "anchorPoint": "BOTTOM_RIGHT",
+          "x": 393,
+          "y": 171,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

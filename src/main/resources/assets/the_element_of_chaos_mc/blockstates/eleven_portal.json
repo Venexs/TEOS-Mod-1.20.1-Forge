@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_element_of_chaos_mc:block/eleven_portal"
+    },
+    "facing=east": {
+      "model": "the_element_of_chaos_mc:block/eleven_portal",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_element_of_chaos_mc:block/eleven_portal",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_element_of_chaos_mc:block/eleven_portal",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "the_element_of_chaos_mc:block/eleven_portal",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "the_element_of_chaos_mc:block/eleven_portal",
+      "x": 90
+    }
+  }
+}

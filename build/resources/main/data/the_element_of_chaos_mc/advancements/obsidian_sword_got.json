@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "the_element_of_chaos_mc:obsidian_sword"
+    },
+    "title": {
+      "translate": "advancements.obsidian_sword_got.title"
+    },
+    "description": {
+      "translate": "advancements.obsidian_sword_got.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "obsidian_sword_got_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "the_element_of_chaos_mc:obsidian_sword",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "minecraft:adventure/adventuring_time"
+}

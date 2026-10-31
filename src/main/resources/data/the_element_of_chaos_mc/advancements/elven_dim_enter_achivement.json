@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "the_element_of_chaos_mc:eleven_portal"
+    },
+    "title": {
+      "translate": "advancements.elven_dim_enter_achivement.title"
+    },
+    "description": {
+      "translate": "advancements.elven_dim_enter_achivement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "elven_dim_enter_achivement_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "the_element_of_chaos_mc:elven_world"
+      }
+    }
+  },
+  "parent": "the_element_of_chaos_mc:magic_selected"
+}

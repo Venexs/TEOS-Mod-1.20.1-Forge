@@ -1,0 +1,73 @@
+{
+  "_fv": 89,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      "CUSTOM:ElvenWasteland"
+    ],
+    "biomesInDimensionCaves": [
+      "cold_ocean"
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": "Blocks.PACKED_ICE",
+    "fluidBlock": "Blocks.WATER",
+    "seaLevel": 63,
+    "generateOreVeins": true,
+    "generateAquifers": true,
+    "horizontalNoiseSize": 1,
+    "verticalNoiseSize": 2,
+    "defaultEffects": "overworld",
+    "useCustomEffects": true,
+    "hasClouds": true,
+    "cloudHeight": 150,
+    "skyType": "NORMAL",
+    "airColor": {
+      "value": -4204308,
+      "falpha": 0.0
+    },
+    "sunHeightAffectsFog": false,
+    "canRespawnHere": false,
+    "hasFog": true,
+    "ambientLight": 0.0,
+    "doesWaterVaporize": false,
+    "hasFixedTime": false,
+    "fixedTimeValue": 0,
+    "coordinateScale": 1.0,
+    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "enableCustomSkyboxTextures": false,
+    "skyboxTextureUp": "",
+    "skyboxTextureDown": "",
+    "skyboxTextureNorth": "",
+    "skyboxTextureSouth": "",
+    "skyboxTextureWest": "",
+    "skyboxTextureEast": "",
+    "enableCustomSunMoonTextures": true,
+    "sunTexture": "whiteholesun",
+    "moonTexture": "moon_phases",
+    "bedWorks": true,
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "piglinSafe": false,
+    "hasRaids": false,
+    "minMonsterSpawnLightLimit": 0,
+    "maxMonsterSpawnLightLimit": 7,
+    "monsterSpawnBlockLightLimit": 0,
+    "portalFrame": "CUSTOM:ElevenPortal",
+    "portalParticles": "PORTAL",
+    "portalLuminance": 5,
+    "portalSound": "block.portal.ambient",
+    "enableIgniter": true,
+    "igniterName": "Elven World Portal Igniter",
+    "igniterRarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "TOOLS",
+      "CUSTOM:ElementofChaos"
+    ],
+    "texture": "minecraft:flint_and_steel",
+    "portalTexture": "elven_portal",
+    "enablePortal": true
+  }
+}

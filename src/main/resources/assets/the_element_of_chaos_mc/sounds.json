@@ -1,0 +1,20 @@
+{
+  "wind_explosion": {
+    "subtitle": "subtitles.wind_explosion",
+    "sounds": [
+      {
+        "name": "the_element_of_chaos_mc:wind_charge_sound_effect_-_trim",
+        "stream": false
+      }
+    ]
+  },
+  "wind_slice": {
+    "subtitle": "subtitles.wind_slice",
+    "sounds": [
+      {
+        "name": "the_element_of_chaos_mc:slice_whoosh_sound_effect_2_-_trim",
+        "stream": false
+      }
+    ]
+  }
+}

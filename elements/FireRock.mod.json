@@ -1,0 +1,19 @@
+{
+  "_fv": 89,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": "Blocks.MAGMA",
+    "showParticles": false,
+    "actionSound": "entity.ghast.shoot",
+    "igniteFire": true,
+    "disableGravity": false,
+    "disableDiscarding": false,
+    "power": 5.0,
+    "damage": 8.0,
+    "knockback": 5,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5
+  }
+}

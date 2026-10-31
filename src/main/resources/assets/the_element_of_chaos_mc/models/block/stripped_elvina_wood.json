@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/stripped_dark_oak_log_top",
+    "up": "minecraft:block/stripped_dark_oak_log_top",
+    "north": "minecraft:block/stripped_dark_oak_log",
+    "east": "minecraft:block/stripped_dark_oak_log",
+    "south": "minecraft:block/stripped_dark_oak_log",
+    "west": "minecraft:block/stripped_dark_oak_log",
+    "particle": "minecraft:block/stripped_dark_oak_log_top"
+  },
+  "render_type": "solid"
+}

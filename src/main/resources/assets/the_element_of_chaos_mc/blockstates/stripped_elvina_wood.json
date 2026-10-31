@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_element_of_chaos_mc:block/stripped_elvina_wood"
+    },
+    "facing=east": {
+      "model": "the_element_of_chaos_mc:block/stripped_elvina_wood",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_element_of_chaos_mc:block/stripped_elvina_wood",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_element_of_chaos_mc:block/stripped_elvina_wood",
+      "y": 270
+    }
+  }
+}

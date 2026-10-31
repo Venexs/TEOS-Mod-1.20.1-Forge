@@ -1,0 +1,1187 @@
+{
+  "mod_elements": [
+    {
+      "name": "RedGem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_element_of_chaos_mc/models/item/red_gem.json",
+          "src/main/java/net/mcreator/theelementofchaosmc/item/RedGemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RedGemItemInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_gem_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/procedures/RedGemItemInHandTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ShapenedObsidian",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shapened_obsidian",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_element_of_chaos_mc/models/item/shapened_obsidian.json",
+          "src/main/java/net/mcreator/theelementofchaosmc/item/ShapenedObsidianItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ObsidianSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/item/ObsidianSwordItem.java",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/item/obsidian_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "ObsidianSwordCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_sword_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_element_of_chaos_mc/recipes/obsidian_sword_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "ObsidianShardCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_shard_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_element_of_chaos_mc/recipes/obsidian_shard_craft.json",
+          "src/main/resources/data/the_element_of_chaos_mc/advancements/recipes/obsidian_shard_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicBlock",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/enchantment/MagicBlockEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "LeftArrowKey",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "left_arrow_key",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/network/LeftArrowKeyMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "ObsidianSwordGot",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_sword_got",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_element_of_chaos_mc/advancements/obsidian_sword_got.json"
+        ]
+      }
+    },
+    {
+      "name": "AdventurersLeatherArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventurers_leather_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/item/AdventurersLeatherArmorItem.java",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/item/adventurers_leather_armor_chestplate.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/item/adventurers_leather_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "AdventurersArmorChest",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventurers_armor_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_element_of_chaos_mc/recipes/adventurers_armor_chest.json",
+          "src/main/resources/data/the_element_of_chaos_mc/advancements/recipes/adventurers_armor_chest.json"
+        ]
+      }
+    },
+    {
+      "name": "AdventurersArmorBoots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventurers_armor_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_element_of_chaos_mc/advancements/recipes/adventurers_armor_boots.json",
+          "src/main/resources/data/the_element_of_chaos_mc/recipes/adventurers_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "BrokenRedGem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_red_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_element_of_chaos_mc/models/item/broken_red_gem.json",
+          "src/main/java/net/mcreator/theelementofchaosmc/item/BrokenRedGemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DemonKronosInhabit",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demon_kronos_inhabit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_element_of_chaos_mc/advancements/demon_kronos_inhabit.json"
+        ]
+      }
+    },
+    {
+      "name": "RedGemItemInInventoryTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_gem_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/procedures/RedGemItemInInventoryTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "KronosInhabitUsers",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kronos_inhabit_users",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/procedures/KronosInhabitUsersProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "FireElementPick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_element_pick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/procedures/FireElementPickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "WaterElementPick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_element_pick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/procedures/WaterElementPickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "AirElementPick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air_element_pick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/procedures/AirElementPickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ElementPickerFront",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "element_picker_front",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/procedures/ElementPickerFrontProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ElementPickerBack",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "element_picker_back",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/procedures/ElementPickerBackProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ElementPickConfirm",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "element_pick_confirm",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/procedures/ElementPickConfirmProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicSelected",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_selected",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_element_of_chaos_mc/advancements/magic_selected.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicElementUsing",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_element_using",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/world/inventory/MagicElementUsingMenu.java",
+          "src/main/java/net/mcreator/theelementofchaosmc/network/MagicElementUsingButtonMessage.java",
+          "src/main/java/net/mcreator/theelementofchaosmc/client/gui/MagicElementUsingScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicCheck",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_check",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/procedures/MagicCheckProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ManaSoul",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_soul",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/item/ManaSoulItem.java",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/item/mana_soul.json"
+        ]
+      }
+    },
+    {
+      "name": "AbilityOneOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ability_one_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/procedures/AbilityOneOnKeyPressedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "AbilityOne",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ability_one",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/network/AbilityOneMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "FireRock",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_rock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/entity/FireRockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "AbilityTwoOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ability_two_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/procedures/AbilityTwoOnKeyPressedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "AbilityTwo",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ability_two",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/network/AbilityTwoMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "FireWallRemove",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_wall_remove",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/procedures/FireWallRemoveProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ManaInfusedStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_infused_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/block/ManaInfusedStoneBlock.java",
+          "src/main/resources/assets/the_element_of_chaos_mc/blockstates/mana_infused_stone.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/block/mana_infused_stone.json",
+          "src/main/resources/data/the_element_of_chaos_mc/loot_tables/blocks/mana_infused_stone.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/item/mana_infused_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "FireLaser",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_laser",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/client/particle/FireLaserParticle.java",
+          "src/main/resources/assets/the_element_of_chaos_mc/particles/fire_laser.json"
+        ]
+      }
+    },
+    {
+      "name": "AbilityThreeOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ability_three_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/procedures/AbilityThreeOnKeyPressedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "AbilityThree",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ability_three",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/network/AbilityThreeMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicUse",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_use",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/client/screens/MagicUseOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "IsElementFire",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_element_fire",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/procedures/IsElementFireProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ElevenPortal",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eleven_portal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_element_of_chaos_mc/models/block/eleven_portal.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/item/eleven_portal.json",
+          "src/main/resources/data/the_element_of_chaos_mc/loot_tables/blocks/eleven_portal.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/blockstates/eleven_portal.json",
+          "src/main/java/net/mcreator/theelementofchaosmc/block/ElevenPortalBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Icestairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icestairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_element_of_chaos_mc/blockstates/icestairs.json",
+          "src/main/resources/data/the_element_of_chaos_mc/loot_tables/blocks/icestairs.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/block/icestairs_inner.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/item/icestairs.json",
+          "src/main/java/net/mcreator/theelementofchaosmc/block/IcestairsBlock.java",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/block/icestairs_outer.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/block/icestairs.json"
+        ]
+      }
+    },
+    {
+      "name": "Icebricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icebricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_element_of_chaos_mc/models/block/icebricks.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/blockstates/icebricks.json",
+          "src/main/java/net/mcreator/theelementofchaosmc/block/IcebricksBlock.java",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/item/icebricks.json",
+          "src/main/resources/data/the_element_of_chaos_mc/loot_tables/blocks/icebricks.json"
+        ]
+      }
+    },
+    {
+      "name": "ElementofChaos",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementof_chaos",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Icebricksslabs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icebricksslabs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_element_of_chaos_mc/loot_tables/blocks/icebricksslabs.json",
+          "src/main/java/net/mcreator/theelementofchaosmc/block/IcebricksslabsBlock.java",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/block/icebricksslabs_top.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/blockstates/icebricksslabs.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/block/icebricksslabs_full.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/block/icebricksslabs.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/item/icebricksslabs.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedIce",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_ice",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_element_of_chaos_mc/loot_tables/blocks/polished_ice.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/blockstates/polished_ice.json",
+          "src/main/java/net/mcreator/theelementofchaosmc/block/PolishedIceBlock.java",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/block/polished_ice.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/item/polished_ice.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedIceSlabs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_ice_slabs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_element_of_chaos_mc/models/item/polished_ice_slabs.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/block/polished_ice_slabs_top.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/block/polished_ice_slabs_full.json",
+          "src/main/java/net/mcreator/theelementofchaosmc/block/PolishedIceSlabsBlock.java",
+          "src/main/resources/data/the_element_of_chaos_mc/loot_tables/blocks/polished_ice_slabs.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/blockstates/polished_ice_slabs.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/block/polished_ice_slabs.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedIceBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_ice_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_element_of_chaos_mc/models/block/polished_ice_bricks.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/block/polished_ice_bricks_inner.json",
+          "src/main/java/net/mcreator/theelementofchaosmc/block/PolishedIceBricksBlock.java",
+          "src/main/resources/data/the_element_of_chaos_mc/loot_tables/blocks/polished_ice_bricks.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/block/polished_ice_bricks_outer.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/item/polished_ice_bricks.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/blockstates/polished_ice_bricks.json"
+        ]
+      }
+    },
+    {
+      "name": "Icebrickcrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icebrickcrafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_element_of_chaos_mc/recipes/icebrickcrafting.json",
+          "src/main/resources/data/the_element_of_chaos_mc/advancements/recipes/icebrickcrafting.json"
+        ]
+      }
+    },
+    {
+      "name": "IceBrickSlabCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_brick_slab_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_element_of_chaos_mc/advancements/recipes/ice_brick_slab_crafting.json",
+          "src/main/resources/data/the_element_of_chaos_mc/recipes/ice_brick_slab_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "IceBrickSlabCrafting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_brick_slab_crafting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_element_of_chaos_mc/recipes/ice_brick_slab_crafting_2.json",
+          "src/main/resources/data/the_element_of_chaos_mc/advancements/recipes/ice_brick_slab_crafting_2.json"
+        ]
+      }
+    },
+    {
+      "name": "IceBrickStairCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_brick_stair_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_element_of_chaos_mc/advancements/recipes/ice_brick_stair_crafting.json",
+          "src/main/resources/data/the_element_of_chaos_mc/recipes/ice_brick_stair_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "IceBrickStairCrafting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_brick_stair_crafting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_element_of_chaos_mc/advancements/recipes/ice_brick_stair_crafting_2.json",
+          "src/main/resources/data/the_element_of_chaos_mc/recipes/ice_brick_stair_crafting_2.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedIceCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_ice_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_element_of_chaos_mc/recipes/polished_ice_crafting.json",
+          "src/main/resources/data/the_element_of_chaos_mc/advancements/recipes/polished_ice_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedIceSlabCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_ice_slab_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_element_of_chaos_mc/advancements/recipes/polished_ice_slab_crafting.json",
+          "src/main/resources/data/the_element_of_chaos_mc/recipes/polished_ice_slab_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedIceSlabCrafting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_ice_slab_crafting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_element_of_chaos_mc/recipes/polished_ice_slab_crafting_2.json",
+          "src/main/resources/data/the_element_of_chaos_mc/advancements/recipes/polished_ice_slab_crafting_2.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedIceStairsCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_ice_stairs_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_element_of_chaos_mc/advancements/recipes/polished_ice_stairs_crafting.json",
+          "src/main/resources/data/the_element_of_chaos_mc/recipes/polished_ice_stairs_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedIceStairsCrafting2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_ice_stairs_crafting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_element_of_chaos_mc/advancements/recipes/polished_ice_stairs_crafting_2.json",
+          "src/main/resources/data/the_element_of_chaos_mc/recipes/polished_ice_stairs_crafting_2.json"
+        ]
+      }
+    },
+    {
+      "name": "ElvinaWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elvina_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_element_of_chaos_mc/models/item/elvina_wood.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/blockstates/elvina_wood.json",
+          "src/main/resources/data/the_element_of_chaos_mc/loot_tables/blocks/elvina_wood.json",
+          "src/main/java/net/mcreator/theelementofchaosmc/block/ElvinaWoodBlock.java",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/block/elvina_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedElvinaWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_elvina_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_element_of_chaos_mc/loot_tables/blocks/stripped_elvina_wood.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/item/stripped_elvina_wood.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/blockstates/stripped_elvina_wood.json",
+          "src/main/java/net/mcreator/theelementofchaosmc/block/StrippedElvinaWoodBlock.java",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/block/stripped_elvina_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "ElvinaLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elvina_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_element_of_chaos_mc/blockstates/elvina_leaves.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/block/elvina_leaves.json",
+          "src/main/resources/data/the_element_of_chaos_mc/loot_tables/blocks/elvina_leaves.json",
+          "src/main/java/net/mcreator/theelementofchaosmc/block/ElvinaLeavesBlock.java",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/item/elvina_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "ElvenWasteland",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elven_wasteland",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_element_of_chaos_mc/worldgen/placed_feature/elven_wasteland_tree.json",
+          "src/main/resources/data/the_element_of_chaos_mc/worldgen/configured_feature/elven_wasteland_tree.json",
+          "src/main/resources/data/the_element_of_chaos_mc/worldgen/biome/elven_wasteland.json"
+        ]
+      }
+    },
+    {
+      "name": "ElvenWorld",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elven_world",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_element_of_chaos_mc/dimension_type/elven_world.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/block/elven_world_portal_ew.json",
+          "src/main/java/net/mcreator/theelementofchaosmc/world/teleporter/ElvenWorldPortalShape.java",
+          "src/main/java/net/mcreator/theelementofchaosmc/item/ElvenWorldItem.java",
+          "src/main/java/net/mcreator/theelementofchaosmc/world/dimension/ElvenWorldDimension.java",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/item/elven_world.json",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/block/elven_world_portal_ns.json",
+          "src/main/resources/data/the_element_of_chaos_mc/dimension/elven_world.json",
+          "src/main/java/net/mcreator/theelementofchaosmc/world/teleporter/ElvenWorldTeleporter.java",
+          "src/main/resources/assets/the_element_of_chaos_mc/blockstates/elven_world_portal.json",
+          "src/main/java/net/mcreator/theelementofchaosmc/block/ElvenWorldPortalBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ElvenDimEnterAchivement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elven_dim_enter_achivement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_element_of_chaos_mc/advancements/elven_dim_enter_achivement.json"
+        ]
+      }
+    },
+    {
+      "name": "WindBladeProjectile",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wind_blade_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/item/WindBladeProjectileItem.java",
+          "src/main/resources/assets/the_element_of_chaos_mc/models/item/wind_blade_projectile.json"
+        ]
+      }
+    },
+    {
+      "name": "WindBlade",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wind_blade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/entity/WindBladeEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "IsElementAir",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_element_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/theelementofchaosmc/procedures/IsElementAirProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "magic_type",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "element_pick",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~Icestairs@CUSTOM:Icestairs",
+      "~Icebricks@CUSTOM:Icebricks",
+      "~PolishedIceBricks@CUSTOM:PolishedIceBricks",
+      "~PolishedIceSlabs@CUSTOM:PolishedIceSlabs",
+      "~PolishedIce@CUSTOM:PolishedIce",
+      "~Icebricksslabs@CUSTOM:Icebricksslabs",
+      "~ManaInfusedStone@CUSTOM:ManaInfusedStone"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~ObsidianSword@CUSTOM:ObsidianSword"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~ManaInfusedStone@CUSTOM:ManaInfusedStone"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~ManaInfusedStone@CUSTOM:ManaInfusedStone"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~Icestairs@CUSTOM:Icestairs",
+      "~PolishedIceBricks@CUSTOM:PolishedIceBricks"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~PolishedIceSlabs@CUSTOM:PolishedIceSlabs",
+      "~Icebricksslabs@CUSTOM:Icebricksslabs"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~ElvinaWood@CUSTOM:ElvinaWood",
+      "~StrippedElvinaWood@CUSTOM:StrippedElvinaWood"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~ElvinaLeaves@CUSTOM:ElvinaLeaves"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~ElvinaLeaves@CUSTOM:ElvinaLeaves"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~ElvenWasteland@CUSTOM:ElvenWasteland"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~ElvenWorld@Blocks.PACKED_ICE",
+      "~ElvenWorld@Blocks.SNOW"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.the_element_of_chaos_mc.red_gem": "Red Gem",
+      "item.the_element_of_chaos_mc.shapened_obsidian": "Shapened Obsidian",
+      "item.the_element_of_chaos_mc.obsidian_sword": "Obsidian Sword",
+      "enchantment.the_element_of_chaos_mc.magic_block": "Magic Block",
+      "key.the_element_of_chaos_mc.left_arrow_key": "Left Arrow Key",
+      "advancements.obsidian_sword_got.descr": "Find / Create The Obsidian Sword",
+      "advancements.obsidian_sword_got.title": "\"That Black Blade.... You are....\"",
+      "item.the_element_of_chaos_mc.adventurers_leather_armor_chestplate": "Adventurers Leather Chestplate",
+      "item.the_element_of_chaos_mc.adventurers_leather_armor_boots": "Adventurers Leather Boots",
+      "item.the_element_of_chaos_mc.broken_red_gem": "Broken Red Gem",
+      "advancements.demon_kronos_inhabit.title": "Demon Resurrection",
+      "advancements.demon_kronos_inhabit.descr": "Get Possesed by the Soul of the Demon within the Red Gem",
+      "advancements.magic_selected.descr": "Select a Magical Element to be born with",
+      "advancements.magic_selected.title": "One in Hundreds",
+      "gui.the_element_of_chaos_mc.magic_element_using.label_element_of_air": "Element of Air",
+      "gui.the_element_of_chaos_mc.magic_element_using.button_empty1": "\u003c",
+      "gui.the_element_of_chaos_mc.magic_element_using.label_choose_the_element_of_fire_and_l": "Element of Fire",
+      "gui.the_element_of_chaos_mc.magic_element_using.button_confirm": "Confirm",
+      "gui.the_element_of_chaos_mc.magic_element_using.label_element_of_water": "Element of Water",
+      "gui.the_element_of_chaos_mc.magic_element_using.label_select_your_magic_ability": "Select your Magic Ability",
+      "gui.the_element_of_chaos_mc.magic_element_using.button_empty": "\u003e",
+      "item.the_element_of_chaos_mc.mana_soul": "Mana Soul",
+      "key.the_element_of_chaos_mc.ability_one": "Ability One",
+      "key.the_element_of_chaos_mc.ability_two": "Ability Two",
+      "block.the_element_of_chaos_mc.mana_infused_stone": "Mana Infused Stone",
+      "key.the_element_of_chaos_mc.ability_three": "Ability Three",
+      "gui.the_element_of_chaos_mc.magic_use.label_x": "X",
+      "gui.the_element_of_chaos_mc.magic_use.label_c": "C",
+      "gui.the_element_of_chaos_mc.magic_use.label_z": "Z",
+      "block.the_element_of_chaos_mc.eleven_portal": "Eleven Portal Block",
+      "block.the_element_of_chaos_mc.icestairs": "Ice Stairs",
+      "block.the_element_of_chaos_mc.icebricks": "Ice Bricks",
+      "item_group.the_element_of_chaos_mc.elementof_chaos": "Elementof Chaos",
+      "block.the_element_of_chaos_mc.icebricksslabs": "Ice Bricks Slabs",
+      "block.the_element_of_chaos_mc.polished_ice": "Polished Ice",
+      "block.the_element_of_chaos_mc.polished_ice_slabs": "Polished Ice Slabs",
+      "block.the_element_of_chaos_mc.polished_ice_bricks": "Polished Ice Stairs",
+      "block.the_element_of_chaos_mc.elvina_wood": "Elvina Wood",
+      "block.the_element_of_chaos_mc.stripped_elvina_wood": "Stripped Elvina Wood",
+      "block.the_element_of_chaos_mc.elvina_leaves": "Elvina Leaves",
+      "biome.the_element_of_chaos_mc.elven_wasteland": "Elven Wasteland",
+      "advancements.elven_dim_enter_achivement.title": "Ice Cold.... Heart and Bone",
+      "advancements.elven_dim_enter_achivement.descr": "Enter the Elven World through the Portal",
+      "item.the_element_of_chaos_mc.elven_world": "Elven World Portal Igniter",
+      "item.the_element_of_chaos_mc.wind_blade_projectile": "Wind Blade Projectile"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/theelementofchaosmc/client/TheElementOfChaosMcModSkyboxRenderer.java",
+      "src/main/java/net/mcreator/theelementofchaosmc/init/TheElementOfChaosMcModEnchantments.java",
+      "src/main/java/net/mcreator/theelementofchaosmc/init/TheElementOfChaosMcModMenus.java",
+      "src/main/java/net/mcreator/theelementofchaosmc/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/theelementofchaosmc/init/TheElementOfChaosMcModScreens.java",
+      "src/main/java/net/mcreator/theelementofchaosmc/init/TheElementOfChaosMcModKeyMappings.java",
+      "src/main/java/net/mcreator/theelementofchaosmc/init/TheElementOfChaosMcModParticles.java",
+      "src/main/java/net/mcreator/theelementofchaosmc/init/TheElementOfChaosMcModParticleTypes.java",
+      "src/main/java/net/mcreator/theelementofchaosmc/init/TheElementOfChaosMcModBlocks.java",
+      "src/main/java/net/mcreator/theelementofchaosmc/init/TheElementOfChaosMcModItems.java",
+      "src/main/java/net/mcreator/theelementofchaosmc/init/TheElementOfChaosMcModEntities.java",
+      "src/main/java/net/mcreator/theelementofchaosmc/init/TheElementOfChaosMcModEntityRenderers.java",
+      "src/main/java/net/mcreator/theelementofchaosmc/init/TheElementOfChaosMcModTabs.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/java/net/mcreator/theelementofchaosmc/TheElementOfChaosMcMod.java",
+      "src/main/java/net/mcreator/theelementofchaosmc/network/TheElementOfChaosMcModVariables.java",
+      "src/main/resources/META-INF/accesstransformer.cfg"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "the_element_of_chaos_mc",
+    "modName": "The Element of Chaos MC",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.theelementofchaosmc"
+  },
+  "mcreatorVersion": 202600233518
+}

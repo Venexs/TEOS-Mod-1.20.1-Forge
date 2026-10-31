@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "the_element_of_chaos_mc:item/placeholder_obsidian_sword_texture"
+  }
+}

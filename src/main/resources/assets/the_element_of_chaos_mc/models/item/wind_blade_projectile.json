@@ -1,0 +1,9 @@
+{
+  "parent": "the_element_of_chaos_mc:custom/wind_blade",
+  "textures": {
+    "0": "the_element_of_chaos_mc:block/windblade",
+    "1": "the_element_of_chaos_mc:block/windblade_mid",
+    "2": "the_element_of_chaos_mc:block/windblade_1",
+    "particle": "the_element_of_chaos_mc:item/wind_blade"
+  }
+}

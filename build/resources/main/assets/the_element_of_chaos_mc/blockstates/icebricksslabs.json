@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "the_element_of_chaos_mc:block/icebricksslabs"
+    },
+    "type=top": {
+      "model": "the_element_of_chaos_mc:block/icebricksslabs_top"
+    },
+    "type=double": {
+      "model": "the_element_of_chaos_mc:block/icebricksslabs_full"
+    }
+  }
+}

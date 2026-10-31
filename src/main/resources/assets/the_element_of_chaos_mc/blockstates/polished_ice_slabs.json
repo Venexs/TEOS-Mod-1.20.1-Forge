@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "the_element_of_chaos_mc:block/polished_ice_slabs"
+    },
+    "type=top": {
+      "model": "the_element_of_chaos_mc:block/polished_ice_slabs_top"
+    },
+    "type=double": {
+      "model": "the_element_of_chaos_mc:block/polished_ice_slabs_full"
+    }
+  }
+}

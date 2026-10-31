@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:Icebricks"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": "CUSTOM:Icebricks",
+    "stoneCuttingReturnStack": "CUSTOM:Icebricksslabs",
+    "name": "ice_brick_slab_crafting_2",
+    "namespace": "mod"
+  }
+}

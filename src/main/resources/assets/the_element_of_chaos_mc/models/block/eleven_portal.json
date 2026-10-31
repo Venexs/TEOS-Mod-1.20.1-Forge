@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_element_of_chaos_mc:block/elven_bottom",
+    "up": "the_element_of_chaos_mc:block/elven_top",
+    "north": "the_element_of_chaos_mc:block/elven_front",
+    "east": "the_element_of_chaos_mc:block/elven_left",
+    "south": "the_element_of_chaos_mc:block/elven_back",
+    "west": "the_element_of_chaos_mc:block/elven_right",
+    "particle": "the_element_of_chaos_mc:block/elven_bottom"
+  },
+  "render_type": "solid"
+}

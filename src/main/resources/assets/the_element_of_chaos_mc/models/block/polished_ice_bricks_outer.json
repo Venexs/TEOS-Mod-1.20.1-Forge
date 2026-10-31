@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "the_element_of_chaos_mc:block/polished_ice",
+    "bottom": "the_element_of_chaos_mc:block/polished_ice",
+    "top": "the_element_of_chaos_mc:block/polished_ice",
+    "side": "the_element_of_chaos_mc:block/polished_ice"
+  },
+  "render_type": "solid"
+}

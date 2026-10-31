@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_element_of_chaos_mc:block/mana_infused_texture",
+    "particle": "the_element_of_chaos_mc:block/mana_infused_texture"
+  },
+  "render_type": "solid"
+}

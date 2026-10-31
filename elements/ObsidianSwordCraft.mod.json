@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "CUSTOM:ShapenedObsidian",
+      "",
+      "",
+      "CUSTOM:ShapenedObsidian",
+      "",
+      "",
+      "Items.BLAZE_ROD",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:ObsidianSword",
+    "name": "obsidian_sword_craft",
+    "namespace": "mod"
+  }
+}

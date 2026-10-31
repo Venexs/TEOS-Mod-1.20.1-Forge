@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:blue_ice"
+  },
+  "result": "the_element_of_chaos_mc:polished_ice_bricks"
+}
